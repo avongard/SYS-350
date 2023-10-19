@@ -1,10 +1,9 @@
 import getpass
+import ssl
 
 passw= getpass.getpass()
 
 from pyVim.connect import SmartConnect
-
-import ssl
 
 hostname = "vcenter.michael.local"
 username = "michael-adm"
