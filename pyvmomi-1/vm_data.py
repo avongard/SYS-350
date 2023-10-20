@@ -26,7 +26,6 @@ machine = vm_view.view
 vm_info = {}
 
 for vm in machine:
-@@ -30,9 +28,10 @@
         memory_mb = vm.summary.config.memorySizeMB
         memory_gb = memory_mb * .001
         vm_info[vm.name] = ip_address
